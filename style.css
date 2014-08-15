@@ -1,0 +1,59 @@
+@import 'reset.css';
+
+body {
+	width: 75%;
+	margin: auto;
+}
+
+header {
+	height: 80em;
+	background: linear-gradient(to right, rgba(215,25,33,0.25), rgba(215,25,33,0.25) 40%, #FFFFFF 40%);
+}
+
+header h1 {
+	color: #FFFFFF;
+	font-family: 'Lato-Hairline';
+	font-size: 20em;
+	font-weight: normal;
+	float: left;
+	clear: left;
+}
+
+header p {
+	font-family: 'Lora-Italic';
+	float: right;
+	color: rgb(176,174,184);
+	letter-spacing: 0.1em;
+	font-size: 0.9em;
+}
+
+#leftFooter {
+	font-family: 'Lato';
+	float: left;
+}
+
+#rightFooter {
+	font-family: 'Merriweather';
+	text-align: right;
+}
+
+#overflow {
+	font-family: 'Lora';
+	width: 50%
+}
+
+.textRight {
+	text-align: right;
+}
+
+#overflowOne {
+	-webkit-transform: rotate(1deg);
+}
+
+#overflowTwo {
+	-webkit-transform: rotate(-1deg);
+}
+
+#overflowThree {
+	-webkit-transform: rotate(1deg);
+}
