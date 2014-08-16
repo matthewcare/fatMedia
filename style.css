@@ -1,30 +1,195 @@
 @import 'reset.css';
 
 body {
-	width: 75%;
+	/*width: 75%;*/
+	width: 79em;
 	margin: auto;
 }
 
 header {
-	height: 80em;
-	background: linear-gradient(to right, rgba(215,25,33,0.25), rgba(215,25,33,0.25) 40%, #FFFFFF 40%);
+	min-height: 80em;
+	background: linear-gradient(to right, rgba(215,25,33,0.25), rgba(215,25,33,0.25) 45%, #FFFFFF 45%);
 }
 
 header h1 {
 	color: #FFFFFF;
-	font-family: 'Lato-Hairline';
-	font-size: 20em;
-	font-weight: normal;
+	font-family: 'Lato';
+	font-size: 18em;
+	font-weight: 100;
 	float: left;
 	clear: left;
+	position: relative;
+	z-index: 1;
+	margin-left: 0.3em;
 }
 
 header p {
-	font-family: 'Lora-Italic';
-	float: right;
+	font-family: 'Lora';
+	font-style: italic;
+	display: inline;
 	color: rgb(176,174,184);
 	letter-spacing: 0.1em;
 	font-size: 0.9em;
+}
+
+article {
+	width: 964px;
+	margin: auto;
+}
+
+#positioningRelatives {
+	float: right;
+	width: 60%;
+	position: relative;
+	top: -70em;
+	font-family: 'Oswald';
+}
+
+#positioningRelatives img {
+	-webkit-transform: rotate(-3deg);
+	z-index: 0;
+}
+
+#positioningRelatives p {
+	margin-left: 6em;
+	position: relative;
+	top: -3em;
+}
+
+#boxModel {
+	width: 40%;
+	width: 15em;
+	text-align: center;
+	position: relative;
+	top: -15em;
+	font-family: 'Lato';
+	color: rgb(95, 93, 102);
+}
+
+#boxModel h1 {
+	font-family: 'Lora';
+	font-style: italic;
+}
+
+#stayingAfloat {
+	float: left;
+	width: 20%;
+	font-family: 'Lato';
+}
+
+#stayingAfloat h3 {
+	font-family: 'Lato';
+}
+
+#bullets {
+	float: right;
+	font-family: 'Oswald';
+}
+
+#bullets p {
+	font-family: 'Lato';
+	font-weight: bold;
+}
+
+#displayingFamousBlocks {
+	clear: both;
+	font-family: 'Merriweather';
+	font-weight: 300;
+	color: #FFF;
+	background: rgb(113, 98, 90);
+}
+
+#displayingFamousBlocks h1 {
+	font-family: 'Oswald';
+	font-weight: normal;
+	padding: 0.5em;
+	text-align: center;
+	font-size: 3em;
+	background: rgb(82, 71, 65);
+}
+
+#displayingFamousBlocks img {
+	width: 100%;
+}
+
+#displayingFamousBlocks p {
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-top: 0.9em;
+	font-size: 1.6em;
+}
+
+#displayingFamousBlocks #link {
+	font-size: 1.07em;
+	padding-bottom: 2em;
+}
+
+#transformers {
+	float: right;
+	font-family: 'Lora';
+	font-style: italic;
+	width: 20%;
+}
+
+#transformers h2 {
+	font-family: 'Oswald';
+	font-style: normal;
+}
+
+#borderBottomLine {
+	font-family: 'Oswald';
+	width: 72%;
+	float: left;
+}
+
+#borderBottomLine h1 {
+	border-bottom: 0.25em solid black;
+	font-size: 5em;
+	text-align: center;
+	font-weight: normal;
+}
+
+#borderBottomLine h2 {
+	border-bottom: 0.1em solid black;
+	font-size: 2.4em;
+	font-weight: normal;
+	margin-top: 0.3em;
+	margin-bottom: 0;
+	padding-bottom: 0.2em;
+}
+
+#borderBottomLine p {
+	font-family: 'Merriweather';
+	font-weight: 300;
+}
+
+#overflow {
+	font-family: 'Lora';
+	font-style: italic;
+	clear: both;
+}
+
+.textRight {
+	text-align: right;
+}
+
+#overflow p {
+	width: 75%
+}
+
+#overflowOne {
+	-webkit-transform: rotate(1deg);
+	margin-left: 17em;
+}
+
+#overflowTwo {
+	-webkit-transform: rotate(-1deg);
+}
+
+#overflowThree {
+	-webkit-transform: rotate(1deg);
+	margin-left: 10em;
+	margin-top: 2em;
 }
 
 #leftFooter {
@@ -35,25 +200,5 @@ header p {
 #rightFooter {
 	font-family: 'Merriweather';
 	text-align: right;
-}
-
-#overflow {
-	font-family: 'Lora';
-	width: 50%
-}
-
-.textRight {
-	text-align: right;
-}
-
-#overflowOne {
-	-webkit-transform: rotate(1deg);
-}
-
-#overflowTwo {
-	-webkit-transform: rotate(-1deg);
-}
-
-#overflowThree {
-	-webkit-transform: rotate(1deg);
+	font-weight: 300;
 }
