@@ -1,65 +1,85 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<meta name="author" content="Fat Media">
 		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato|Lato:100|Lato:b|Lora|Lora:b|Lora:bi|Lora:i|Merriweather|Merriweather:300|Oswald">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato|Lato:100|Lato:b|Lora|Lora:b|Lora:bi|Lora:i|Merriweather|Merriweather:300|Oswald|Oswald:300|Oswald:700">
 		<title>Fat Media</title>
 	</head>
 	<body>
 		<header>
-			<h1>CSS</h1>
-			<h1>OFF</h1>
 			<p>VOLUME 3–SEPTEMBER 2013</p>
+			<h1>CSS OFF</h1>
 		</header>
 
 		<article>
 			<section id="positioningRelatives">
-				<img src="img/positionRelative.png">
-				<h3>FEATURE</h3>
-				<h1>POSITIONING RELATIVES</h1>
-				<p>In 1958, English pictorial photographer Henry Peach Robinson created the world’s first photomontage by combining five different negatives to make one complete print of a young girl on her deathbed. “Fading Away”—Robinson’s first and most famous composite photo—depicts a young girl dying of consumption and was controversial when it was exhibited, with many believing it was not a suitable subject for photography.</p>
+				<img src="img/positionRelative.png" alt="">
+				<div id="positionRelativeShadow"></div>
+				<div id="positioningRelativesText">
+					<h3>FEATURE</h3>
+					<h1>POSITIONING RELATIVES</h1>
+					<p>In 1958, English pictorial photographer Henry Peach Robinson created the world’s first photomontage by combining five different negatives to make one complete print of a young girl on her deathbed. “Fading Away”—Robinson’s first and most famous composite photo—depicts a young girl dying of consumption and was controversial when it was exhibited, with many believing it was not a suitable subject for photography.</p>
+				</div>
 			</section>
 
 			<section id="boxModel">
+				<img src="img/babrie.png" alt="A picture of barbie in a box.">
 				<h1>Box Model</h1>
 				<p>The Barbie doll was invented in 1959 by Ruth Handler (co-founder of Mattel), whose own daughter was called Barbara. Barbie was introduced to the world at the American Toy Fair in New York City. Barbie's job was teenage fashion doll. The full name of the first doll was Barbie Millicent Roberts, from Willows, Wisconsin.</p>
 			</section>
 
 			<section id="stayingAfloat">
-				<p>Staying afloat</p>
+				<h3>Staying afloat</h3>
 				<p>Lobsterman John Aldridge fell into the shark-infested water of Long Island while his crewmates were asleep. He was kept afloat for more than 12 hours by his rubber boots, which he used as flotation devices. The coast guard rescued him 43 miles south of Montauk where he fell off his vessel.</p>
+				<img src="img/boots.png">
 			</section>
 
 			<section id="bullets">
-				<h3>LIST STYLE: BULLETS.</h3>  <p>A ROUND UP OF POPULAR AMMUNITION</p>
-				<h2>.223 REMMINGTON 69gr BTHP</h2>
-				<h2>.308 WINCHESTER 168gr BTHP</h2>
-				<h2>7.62x39mm RUSSIAN 154gr JSP</h2>
-				<h2>7.62 THUMPER 220gr RN</h2>
-				<h2>7.62 THUMPER 240gr BTHP</h2>
+				<div id="bulletsHead">
+					<h3>LIST STYLE: BULLETS.</h3>  <p>A ROUND-UP OF POPULAR AMMUNITION</p>
+				</div>
+				<ul>
+					<li>.223 REMMINGTON 69gr BTHP
+					<li>.308 WINCHESTER 168gr BTHP
+					<li>7.62x39mm RUSSIAN 154gr JSP
+					<li>7.62 THUMPER 220gr RN
+					<li>7.62 THUMPER 240gr BTHP
+				</ul>
 			</section>
 
 			<section id="displayingFamousBlocks">
 				<h1>DISPLAYING (FAMOUS) BLOCKS</h1>
-				<img src="img/beatles-abbey-road.jpg">
+				<img src="img/beatles-abbey-road.jpg" alt="The beatles on Abbey Road">
 				<p>Abbey Road is a thoroughfare located in the borough of Camden and the City of Westminster in London, running roughly northwest to southeast through St. John’s Wood, near Lord’s Cricket Ground. It is part of the B507. This road is best known for the Abbey Road Studios and the 1969 album, Abbey Road, by The Beatles.</p>
 				<p id="link">Photo: goo.gl/h44dc9</p>
 			</section>
 
 			<section id="transformers">
-				<h2>TRANSFORMERS REVENGE OF THE FALLEN</h2>
+				<img src="img/transformers.png" alt="Transformers film bluray packaging.">
+				<div id="transformerShadow"></div>
+				<h1 class="medium">TRANSFORMERS</h1>
+				<h2>REVENGE OF THE FALLEN</h2>
+				<div id="splitter"></div>
 				<p>A noisy, underplotted, and overlong special effects extravaganza that lacks a human touch.</p>
-				<h2>ROTTON TOMATO RATING 20%</h2>
-				<h2>WORLD PREMIRE</h2>
-				<h2>DEN HAAG THEATRE</h2>
-				<h2>THE NETHERLANDS</h2>
-				<h2>JUNE 23, 2011</h2>
+				<p id="border">––––––––––––</p>
+				<div id="rottonTomato">
+					<h2 class="blueText small">ROTTON TOMATO</h2>
+					<h2 id="percent">20%</h2>
+					<h2 class="blueText medium">RATING</h2>
+					<div id="percentBar"></div>
+				</div>
+				<p id="border">––––––––––––</p>
+				<h2 class="blueText small">WORLD PREMIRE</h2>
+				<h2 class="medium">DEN HAAG THEATRE</h2>
+				<h2 class="blueText medium">THE NETHERLANDS</h2>
+				<h2 class="large">JUNE 23, 2011</h2>
+				<div id="circle"></div>
 			</section>
 
 			<section id="borderBottomLine">
-				<img src="">
+				<img src="img/heads.png">
 				<h1>BORDER BOTTOM LINE</h1>
 				<h2>Awful immigration laws from around the world.</h2>
 				<p><strong>Italy</strong> penalizes illegal immigrants with a fine of €5,000-10,000 and allows immigration officials to detain them for up to 6 months. •  <strong>Switzerland</strong> immediately deports all convicted criminals from other countries and potentially even their family members. •  <strong>Australia</strong> detains all non-citizens without a valid visa.•  <strong>Japan</strong> is allowed to pay $3,000 to each unemployed Latin Americn immigrant of Japanese descent and $2,000 to each of that unemployed worker’s family members to return to their country of origin.• The <strong>United Arab Emirates</strong> prohibits foreigners from engaging in any sort of labor union-like activity, resulting in harsh living conditions, 80-hour work weeks, back-breaking manual labor, and below-minimum-wage pay.</p>
