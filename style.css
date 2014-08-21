@@ -32,7 +32,7 @@ header p {
 	color: rgb(176,174,184);
 	letter-spacing: 0.1em;
 	font-size: 0.9em;
-	padding-top: 7em;
+	padding-top: 6em;
 	float: right;
 }
 
@@ -75,11 +75,6 @@ article {
 		rgba(0, 0, 0, 0.4) 30%,
 		rgba(0, 0, 0, 0) 70%);
 	background: -moz-radial-gradient(
-		50% 50%,
-		70% 20%,
-		rgba(0, 0, 0, 0.4) 30%,
-		rgba(0, 0, 0, 0) 70%);
-	background: radial-gradient(
 		50% 50%,
 		70% 20%,
 		rgba(0, 0, 0, 0.4) 30%,
@@ -335,7 +330,7 @@ article {
 	text-align: left;
 }
 
-p#border{
+#transformers p.border{
 	color: rgb(35, 79, 112);
 	font-size: 2em;
 	overflow: hidden;
@@ -372,11 +367,6 @@ p#border{
 		rgba(0, 0, 0, 0.7) 20%,
 		rgba(0, 0, 0, 0) 70%);
 	background: -moz-radial-gradient(
-		50% 50%,
-		70% 20%,
-		rgba(0, 0, 0, 0.7) 20%,
-		rgba(0, 0, 0, 0) 70%);
-	background: radial-gradient(
 		50% 50%,
 		70% 20%,
 		rgba(0, 0, 0, 0.7) 20%,
@@ -772,6 +762,7 @@ footer {
 		width: 60%;
 		float: none;
 		margin-bottom: 2em;
+		font-size: 100%;
 	}
 
 	#transformers #worldPremire {
@@ -817,8 +808,6 @@ footer {
 	#positioningRelatives #positionRelativeShadow {
 		width: 80%;
 	}
-
-	
 }
 
 @media (max-width: 650px) {
