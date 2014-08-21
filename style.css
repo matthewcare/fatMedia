@@ -751,7 +751,7 @@ footer {
 	}
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
 	#transformers img {
 		position: static !important;
 		margin: 0 auto;
