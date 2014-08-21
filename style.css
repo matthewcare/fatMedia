@@ -580,6 +580,7 @@ footer {
 @media (max-width: 1300px) {
 	body {
 		width: 100%;
+		min-width: 440px;
 	}
 
 	header {
@@ -811,6 +812,10 @@ footer {
 }
 
 @media (max-width: 650px) {
+	#transformers {
+		width: 100%;
+	}
+	
 	#circle {
 		height: 3em;
 		width: 3em;
